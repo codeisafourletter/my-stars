@@ -447,6 +447,7 @@
 
 ## JavaScript 
 
+- [guessing-game](https://github.com/rolling-scopes-school/guessing-game) - Guessing game tests
 - [NiM](https://github.com/june07/NiM) - Streamline Your Node.js Debugging Workflow with Chromium (Chrome, Edge, More) DevTools.
 - [iot-smart-home-cloud](https://github.com/GoogleCloudPlatform/iot-smart-home-cloud) - Sample project using Cloud IoT Core and the Google Assistant
 - [ocr-gt-tools](https://github.com/UB-Mannheim/ocr-gt-tools) - Ergonomic line-by-line transcription of scanned text.
