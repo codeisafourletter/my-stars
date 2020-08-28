@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
     # Inputs the workflow accepts.
 jobs:
-  awesome-stars:
-    name: update awesome-stars
+  my-stars:
+    name: update my-stars
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
@@ -24,4 +24,4 @@ jobs:
     - name: update repo
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: starred --username codeisafourletter --repository awesome-stars --sort --token ${GITHUB_TOKEN} --message 'stars update by github actions cron'
+      run: starred --username codeisafourletter --repository my-stars --sort --token ${GITHUB_TOKEN} --message 'stars update by github actions cron'
