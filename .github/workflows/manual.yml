@@ -7,8 +7,6 @@ name: Manual workflow
 on:
   workflow_dispatch:
     # Inputs the workflow accepts.
-name: manual update awesome-stars
-
 jobs:
   awesome-stars:
     name: update awesome-stars
