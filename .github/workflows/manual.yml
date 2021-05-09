@@ -1,4 +1,4 @@
-      name: update awesome-stars
+name: update awesome-stars
 on:
   workflow_dispatch:
   schedule:
