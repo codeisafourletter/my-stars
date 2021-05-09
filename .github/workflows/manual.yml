@@ -1,8 +1,12 @@
-name: update my-stars
+# This is a basic workflow that is manually triggered
+
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
 on:
   workflow_dispatch:
-  schedule:
-  - cron: 30 0 * * *
+    # Inputs the workflow accepts.
 jobs:
   my-stars:
     name: update my-stars
